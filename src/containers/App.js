@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 import Home from './home/home'
 import '../assets/css/base.css'
+import Map from './map/map'
 
 document.title = '花瓣_陪你做生活的设计师'
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Home/>
+      <Map/>
     </>
   );
 }
